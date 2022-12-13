@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package= "protobuf.sdj3";
+
+message User {
+  string name=1;
+  string password=2;
+
+}
+message Event {
+  int32 id = 1;
+  string eventName = 2;
+  string startdate = 3;
+  string enddate = 4;
+}
+
+message EventList{
+  Event event = 1;
+}
+message FindEventRequest {
+  string eventName = 1;
+
+}
+service CoreServices{
+  rpc GetEvent(User) returns (Event) {};
+
+}
