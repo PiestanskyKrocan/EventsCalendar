@@ -1,0 +1,83 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Alzimax"
+    },
+    {
+      "Id": 2,
+      "UserName": "Alzimax2"
+    },
+    {
+      "Id": 3,
+      "UserName": "Alzimax3"
+    },
+    {
+      "Id": 4,
+      "UserName": ""
+    },
+    {
+      "Id": 5,
+      "UserName": "Alzimax1"
+    },
+    {
+      "Id": 6,
+      "UserName": "Alzimax4"
+    },
+    {
+      "Id": 7,
+      "UserName": "asd"
+    },
+    {
+      "Id": 8,
+      "UserName": "Asd"
+    }
+  ],
+  "Events": [
+    {
+      "Id": 5,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Alzimax2"
+      },
+      "Title": "asd",
+      "IsCompleted": false
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Alzimax"
+      },
+      "Title": "editedEvent",
+      "IsCompleted": false
+    },
+    {
+      "Id": 6,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Alzimax"
+      },
+      "Title": "asd",
+      "IsCompleted": false
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Alzimax"
+      },
+      "Title": "Event3",
+      "IsCompleted": true
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Alzimax"
+      },
+      "Title": "Event42352",
+      "IsCompleted": true
+    }
+  ]
+}

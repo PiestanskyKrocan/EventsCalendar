@@ -1,0 +1,15 @@
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\bin\Debug\net6.0\HttpClients.deps.json
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\bin\Debug\net6.0\HttpClients.dll
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\bin\Debug\net6.0\HttpClients.pdb
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\bin\Debug\net6.0\Domain.dll
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\bin\Debug\net6.0\Domain.pdb
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\obj\Debug\net6.0\HttpClients.csproj.AssemblyReference.cache
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\obj\Debug\net6.0\HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\obj\Debug\net6.0\HttpClients.AssemblyInfoInputs.cache
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\obj\Debug\net6.0\HttpClients.AssemblyInfo.cs
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\obj\Debug\net6.0\HttpClients.csproj.CoreCompileInputs.cache
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\obj\Debug\net6.0\HttpClients.csproj.CopyComplete
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\obj\Debug\net6.0\HttpClients.dll
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\obj\Debug\net6.0\refint\HttpClients.dll
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\obj\Debug\net6.0\HttpClients.pdb
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\HttpClients\obj\Debug\net6.0\ref\HttpClients.dll

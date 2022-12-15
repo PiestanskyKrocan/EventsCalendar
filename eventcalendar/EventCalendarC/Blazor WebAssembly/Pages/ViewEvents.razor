@@ -1,0 +1,156 @@
+﻿@page "/ViewEvents"
+@using Domain.Model
+@using HttpClients.ClientInterfaces
+@using Blazor_WebAssembly.Pages.UIComponents
+@using Domain.DTOs
+@inject IEventService eventService
+@inject NavigationManager NavigationManager
+
+<h3>ViewEvents</h3>
+
+<div class="filter-bar">
+    <div class="filters-container">
+        <img src="icons/@(doShowFilters ? "clear_" : "")funnel.png" class="funnel" @onclick="@(() => doShowFilters = !doShowFilters)" alt="Funnel"/>
+        @if (doShowFilters)
+        {
+            <div class="filter">
+                <label>Username:</label>
+                <input type="text" @bind="usernameFilter"/>
+            </div>
+            <div class="filter">
+                <label>User id:</label>
+                <input type="number" @bind="userIdFilter"/>
+            </div>
+            <div class="filter">
+                <label>Is completed?</label>
+                <select @bind="completedStatusFilter">
+                    <option value="all">All</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                </select>
+            </div>
+            <div class="filter">
+                <label>Title contains:</label>
+                <input type="text" @bind="titleContainsFilter"/>
+            </div>
+        }
+    </div>
+</div>
+
+<div>
+    <button @onclick="LoadEvents">Load</button>
+</div>
+
+@if (events == null)
+{
+}
+else if (!events.Any())
+{
+    <p>No Events to display</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Event ID</th>
+            <th>Owner ID</th>
+            <th>Title</th>
+            <th>Completed?</th>
+            <th>Edit</th>
+            <th>Delete?</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in events)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Owner.UserName</td>
+                <td>@item.Title</td>
+                <td>
+                    <CheckBox IsCompleted="@item.IsCompleted" OnChange="@((status) => CompleteEvent(item, status))"/>
+                </td>
+                <td>
+                    <img src="icons/edit.gif" class="funnel" @onclick="@(() => NavigationManager.NavigateTo($"/EditEvent/{item.Id}"))"/>
+                </td>
+                <td>
+                    <label @onclick="@(() => RemoveEvent(item.Id))" style="cursor:pointer; color: red; font-weight: bold">
+                        &#x2717;
+                    </label>
+                </td>
+                
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+@if (!string.IsNullOrEmpty(msg))
+{
+    <label style="color: red">@msg</label>
+}
+
+@code {
+    private IEnumerable<Event>? events;
+    private string msg = "";
+    private bool doShowFilters = false;
+
+    private string? usernameFilter;
+    private int? userIdFilter;
+    private string? completedStatusFilter;
+    private string? titleContainsFilter;
+    
+    private async Task LoadEvents()
+    {
+        try
+        {
+            bool? completedFilterValue = null;
+            if (!string.IsNullOrEmpty(completedStatusFilter) && !completedStatusFilter.Equals("all"))
+            {
+                completedFilterValue = bool.Parse(completedStatusFilter);
+            }
+            events = await eventService.GetAsync(usernameFilter, userIdFilter, completedFilterValue, titleContainsFilter);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+    
+    private async Task CompleteEvent(Event item, bool status)
+    {
+        EventUpdateDto dto = new(item.Id)
+        {
+            IsCompleted = status
+        };
+    
+        try
+        {
+            await eventService.UpdateAsync(dto);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+    
+    private async Task RemoveEvent(int eventId)
+    {
+        msg = "";
+        try
+        {
+            await eventService.DeleteAsync(eventId);
+        
+            var list = new List<Event>(events!);
+            list.RemoveAll(todo => todo.Id == eventId);
+            events = list.AsEnumerable();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}
