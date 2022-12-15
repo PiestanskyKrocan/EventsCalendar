@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OYsExODK4nPqx3/pvWuH6KsYvIXg1AXj8D8Rpu4gzQkTaxF24c8fnU3+VxQnA4hfX+KMXxSgXw/2UYSCI6RCAQ==",
+  "dgSpecHash": "Em22+ycey3MUz9N0UUshFpPxelTtaDf8tnCigcNysizjlZDlbfJB1mdfQ2QJTs2kDhoIolIybQqqZa1kphv7VA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\Blazor WebAssembly\\Blazor WebAssembly.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Arteschip\\.nuget\\packages\\grpc.net.client.web\\2.51.0-pre1\\grpc.net.client.web.2.51.0-pre1.nupkg.sha512",
     "C:\\Users\\Arteschip\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
     "C:\\Users\\Arteschip\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\microsoft.aspnetcore.components.6.0.8.nupkg.sha512",
     "C:\\Users\\Arteschip\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.8\\microsoft.aspnetcore.components.analyzers.6.0.8.nupkg.sha512",

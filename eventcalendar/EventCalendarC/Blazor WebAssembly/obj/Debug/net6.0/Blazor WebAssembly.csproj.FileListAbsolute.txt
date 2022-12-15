@@ -834,3 +834,7 @@ C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\
 C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\scopedcss\Pages\CreateEvent.razor.rz.scp.css
 C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\scopedcss\Pages\ViewEvents.razor.rz.scp.css
 C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\scopedcss\Pages\UIComponents\CheckBox.razor.rz.scp.css
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\bin\Debug\net6.0\wwwroot\_framework\Grpc.Net.Client.Web.dll
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\bin\Debug\net6.0\wwwroot\_framework\Grpc.Net.Client.Web.dll.gz
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\bin\Debug\net6.0\Grpc.Net.Client.Web.dll
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\build-gz\6+GcmPj+.gz

@@ -19,6 +19,11 @@ public final class UserOuterClass {
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_sdj_project_eventcalendar_protobuf_User_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_sdj_project_eventcalendar_protobuf_UserId_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_sdj_project_eventcalendar_protobuf_UserId_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -32,20 +37,21 @@ public final class UserOuterClass {
       "protobuf\"o\n\004User\022\017\n\007user_id\030\001 \001(\003\022\014\n\004nam" +
       "e\030\002 \001(\t\022\020\n\010password\030\003 \001(\t\022\016\n\006gender\030\004 \001(" +
       "\t\022\025\n\rdate_of_birth\030\005 \001(\t\022\017\n\007address\030\006 \001(" +
-      "\t2\225\004\n\017GRPCUserService\022e\n\017RPCfindUserById" +
-      "\022(.sdj.project.eventcalendar.protobuf.Us" +
-      "er\032(.sdj.project.eventcalendar.protobuf." +
-      "User\022a\n\013RPCsaveUser\022(.sdj.project.eventc" +
-      "alendar.protobuf.User\032(.sdj.project.even" +
-      "tcalendar.protobuf.User\022c\n\rRPCupdateUser" +
-      "\022(.sdj.project.eventcalendar.protobuf.Us" +
-      "er\032(.sdj.project.eventcalendar.protobuf." +
-      "User\022c\n\rRPCdeleteUser\022(.sdj.project.even" +
-      "tcalendar.protobuf.User\032(.sdj.project.ev" +
-      "entcalendar.protobuf.User\022n\n\024RPCGetListO" +
-      "fAllUsers\022(.sdj.project.eventcalendar.pr" +
-      "otobuf.User\032(.sdj.project.eventcalendar." +
-      "protobuf.User\"\0000\001B\002P\001b\006proto3"
+      "\t\"\031\n\006UserId\022\017\n\007user_id\030\001 \001(\0032\227\004\n\017GRPCUse" +
+      "rService\022g\n\017RPCfindUserById\022*.sdj.projec" +
+      "t.eventcalendar.protobuf.UserId\032(.sdj.pr" +
+      "oject.eventcalendar.protobuf.User\022a\n\013RPC" +
+      "saveUser\022(.sdj.project.eventcalendar.pro" +
+      "tobuf.User\032(.sdj.project.eventcalendar.p" +
+      "rotobuf.User\022c\n\rRPCupdateUser\022(.sdj.proj" +
+      "ect.eventcalendar.protobuf.User\032(.sdj.pr" +
+      "oject.eventcalendar.protobuf.User\022c\n\rRPC" +
+      "deleteUser\022(.sdj.project.eventcalendar.p" +
+      "rotobuf.User\032(.sdj.project.eventcalendar" +
+      ".protobuf.User\022n\n\024RPCGetListOfAllUsers\022(" +
+      ".sdj.project.eventcalendar.protobuf.User" +
+      "\032(.sdj.project.eventcalendar.protobuf.Us" +
+      "er\"\0000\001B\002P\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -57,6 +63,12 @@ public final class UserOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_sdj_project_eventcalendar_protobuf_User_descriptor,
         new java.lang.String[] { "UserId", "Name", "Password", "Gender", "DateOfBirth", "Address", });
+    internal_static_sdj_project_eventcalendar_protobuf_UserId_descriptor =
+      getDescriptor().getMessageTypes().get(1);
+    internal_static_sdj_project_eventcalendar_protobuf_UserId_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_sdj_project_eventcalendar_protobuf_UserId_descriptor,
+        new java.lang.String[] { "UserId", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

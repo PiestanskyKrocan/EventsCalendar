@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "v8Y9sYHmeVaYc+Q2asCSuxVnSCxpY+g0z8ZSvEH0hScHET101zK95nHEOIrw/1Bf/bVfFvGGIvHwHZ5vsmR5OA==",
+  "dgSpecHash": "tqMuVHw6JNNzFX1BdBeJUZPL7sMwCmUEvpQZ9UdefjQLvFXMTnXQmCAOM0Qsu+fW7Cavxj2sKWlEgNvkYbUOzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\FileData\\FileData.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Arteschip\\.nuget\\packages\\grpc.net.client.web\\2.51.0-pre1\\grpc.net.client.web.2.51.0-pre1.nupkg.sha512"
+  ],
   "logs": []
 }

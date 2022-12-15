@@ -5,6 +5,8 @@
     <projectFile profileName="IIS Express">Blazor WebAssembly/Blazor WebAssembly.csproj</projectFile>
     <projectFile profileName="BlazorClient">BlazorClient/BlazorClient.csproj</projectFile>
     <projectFile profileName="IIS Express">BlazorClient/BlazorClient.csproj</projectFile>
+    <projectFile profileName="GrpcClient">GrpcClient/GrpcClient.csproj</projectFile>
+    <projectFile profileName="GrpcService">GrpcService/GrpcService.csproj</projectFile>
     <projectFile profileName="IIS Express">WebAPI/WebAPI.csproj</projectFile>
     <projectFile profileName="WebAPI">WebAPI/WebAPI.csproj</projectFile>
   </component>
@@ -31,16 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Blazor WebAssembly">
+}</component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.GrpcService">
     <configuration name="Blazor WebAssembly" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Blazor WebAssembly/Blazor WebAssembly.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -101,6 +103,36 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="GrpcClient" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/GrpcClient/GrpcClient.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="GrpcClient" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="GrpcService" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/GrpcService/GrpcService.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="GrpcService" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="WebAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebAPI/WebAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -141,7 +173,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670453179970</updated>
       <workItem from="1670453193594" duration="7937000" />
-      <workItem from="1670872606960" duration="25101000" />
+      <workItem from="1670872606960" duration="26914000" />
+      <workItem from="1671134558591" duration="4975000" />
     </task>
     <servers />
   </component>

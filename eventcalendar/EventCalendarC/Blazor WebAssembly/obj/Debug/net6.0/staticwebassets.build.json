@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zvgngnkngrlIRhB1QZIbARzQNiCmy+AjPuMljrmBmDs=",
+  "Hash": "C45LTdMgM/CUeykzwZyYQPPT0raqFP9TGCcIF+/o9fk=",
   "Source": "Blazor WebAssembly",
   "BasePath": "/",
   "Mode": "Root",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Arteschip\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.8\\runtimes\\browser-wasm\\native\\dotnet.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\Blazor WebAssembly\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Grpc.Net.Client.Web.dll",
+      "SourceId": "Blazor WebAssembly",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\Blazor WebAssembly\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Grpc.Net.Client.Web.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Arteschip\\.nuget\\packages\\grpc.net.client.web\\2.51.0-pre1\\lib\\net6.0\\Grpc.Net.Client.Web.dll"
     },
     {
       "Identity": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\Blazor WebAssembly\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HttpClients.dll",
@@ -3908,6 +3925,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\Blazor WebAssembly\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Uri.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\Blazor WebAssembly\\obj\\Debug\\net6.0\\build-gz\\6+GcmPj+.gz",
+      "SourceId": "Blazor WebAssembly",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\Blazor WebAssembly\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Grpc.Net.Client.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\Blazor WebAssembly\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Grpc.Net.Client.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\Blazor WebAssembly\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Grpc.Net.Client.Web.dll"
     },
     {
       "Identity": "C:\\Users\\Arteschip\\Documents\\GitHub\\EventsCalendar\\eventcalendar\\EventCalendarC\\Blazor WebAssembly\\obj\\Debug\\net6.0\\build-gz\\6kyoMzUS.gz",

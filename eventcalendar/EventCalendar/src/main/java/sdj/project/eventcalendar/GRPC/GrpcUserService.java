@@ -8,6 +8,7 @@ import sdj.project.eventcalendar.Entity.EventEntity;
 import sdj.project.eventcalendar.Entity.UserEntity;
 import sdj.project.eventcalendar.protobuf.GRPCUserServiceGrpc;
 import sdj.project.eventcalendar.protobuf.User;
+import sdj.project.eventcalendar.protobuf.UserId;
 import sdj.project.eventcalendar.service.UserService;
 
 import java.sql.Timestamp;
@@ -49,12 +50,12 @@ public class GrpcUserService extends GRPCUserServiceGrpc.GRPCUserServiceImplBase
 
 
     @Override
-    public void rPCfindUserById(User request, StreamObserver<User> responseObserver) {
-        super.rPCfindUserById(request, responseObserver);
+    public void rPCfindUserById(UserId userId, StreamObserver<User> responseObserver) {
+        super.rPCfindUserById(userId, responseObserver);
 
-        user = new UserEntity(request.getUserId(),request.getName(), request.getPassword(),request.getGender(), Timestamp.valueOf(request.getDateOfBirth()),request.getAddress());
+        //user = new UserEntity(userId,request.getName(), request.getPassword(),request.getGender(), Timestamp.valueOf(request.getDateOfBirth()),request.getAddress());
 
-        optionalUserEntity = userService.findById(user.getId());
+        optionalUserEntity = userService.findById(userId.getUserId());
 
 
         try {

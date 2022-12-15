@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcClient";
+
+message User {
+  int64 user_id=1;
+  string name = 2;
+  string password = 3;
+  string gender = 4;
+  string date_of_birth = 5;
+  string address = 6;
+}
+
+message UserId{
+  int64 user_id = 1;
+}
+
+service GRPCUserService {
+
+  rpc RPCfindUserById(UserId) returns (User);
+
+  rpc RPCsaveUser(User) returns (User);
+
+  rpc RPCupdateUser(User) returns (User);
+
+  rpc RPCdeleteUser(User) returns (User);
+
+  rpc RPCGetListOfAllUsers(User) returns (stream User){}
+
+}

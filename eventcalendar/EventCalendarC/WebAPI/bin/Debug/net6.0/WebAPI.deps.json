@@ -10,10 +10,19 @@
         "dependencies": {
           "Application": "1.0.0",
           "FileData": "1.0.0",
+          "Grpc.Net.Client.Web": "2.51.0-pre1",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "WebAPI.dll": {}
+        }
+      },
+      "Grpc.Net.Client.Web/2.51.0-pre1": {
+        "runtime": {
+          "lib/net6.0/Grpc.Net.Client.Web.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.51.0.0"
+          }
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -65,20 +74,25 @@
       },
       "Application/1.0.0": {
         "dependencies": {
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Grpc.Net.Client.Web": "2.51.0-pre1"
         },
         "runtime": {
           "Application.dll": {}
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "Grpc.Net.Client.Web": "2.51.0-pre1"
+        },
         "runtime": {
           "Domain.dll": {}
         }
       },
       "FileData/1.0.0": {
         "dependencies": {
-          "Application": "1.0.0"
+          "Application": "1.0.0",
+          "Grpc.Net.Client.Web": "2.51.0-pre1"
         },
         "runtime": {
           "FileData.dll": {}
@@ -91,6 +105,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Grpc.Net.Client.Web/2.51.0-pre1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Uw8EnjqXB1MhD3kp4XlLIuUzGnGdiVTq4bf6mgvtsbMrJ3i01t1uK03x7p5RoZoufweanx5ndDCHCWN/+H19gw==",
+      "path": "grpc.net.client.web/2.51.0-pre1",
+      "hashPath": "grpc.net.client.web.2.51.0-pre1.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",

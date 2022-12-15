@@ -11,9 +11,13 @@ message User {
   string address = 6;
 }
 
+message UserId{
+  int64 user_id = 1;
+}
+
 service GRPCUserService {
 
-  rpc RPCfindUserById(User) returns (User);
+  rpc RPCfindUserById(UserId) returns (User);
 
   rpc RPCsaveUser(User) returns (User);
 
