@@ -15,18 +15,17 @@
     {
       "Id": 4,
       "UserName": ""
+    },
+    {
+      "Id": 5,
+      "UserName": "Alzimax1"
+    },
+    {
+      "Id": 6,
+      "UserName": "Alzimax4"
     }
   ],
   "Events": [
-    {
-      "Id": 1,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Alzimax"
-      },
-      "Title": "f",
-      "IsCompleted": true
-    },
     {
       "Id": 2,
       "Owner": {
@@ -34,7 +33,7 @@
         "UserName": "Alzimax"
       },
       "Title": "Event2",
-      "IsCompleted": false
+      "IsCompleted": true
     },
     {
       "Id": 3,
@@ -43,6 +42,24 @@
         "UserName": "Alzimax"
       },
       "Title": "Event3",
+      "IsCompleted": true
+    },
+    {
+      "Id": 5,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Alzimax2"
+      },
+      "Title": "asd",
+      "IsCompleted": false
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Alzimax"
+      },
+      "Title": "editedEvent",
       "IsCompleted": false
     }
   ]

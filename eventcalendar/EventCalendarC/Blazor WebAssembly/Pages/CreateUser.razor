@@ -1,7 +1,7 @@
 ﻿@page "/CreateUser"
 @using Domain.DTOs
 @using HttpClients.ClientInterfaces
-@inject IUserService userService;
+@inject IUserService userService
 
 <div class="card">
     <h3>Create User</h3>
@@ -29,7 +29,7 @@
 
         try
         {
-            await userService.Create(new UserCreationDto(username));
+            await userService.CreateAsync(new UserCreationDto(username));
             username = "";
             resultMsg = "User successfully created";
             color = "green";

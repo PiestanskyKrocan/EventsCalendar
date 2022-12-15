@@ -1,5 +1,32 @@
+/* /Pages/CreateEvent.razor.rz.scp.css */
+/*.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.field {
+    margin-top: 20px;
+}
+
+.acceptbtn {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-row {
+    margin-top: 15px;
+}
 /* /Pages/CreateUser.razor.rz.scp.css */
-.card[b-un7nwylrv6] {
+/*.card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 250px;
@@ -10,11 +37,11 @@
     border-radius: 15px;
 }
 
-.field[b-un7nwylrv6] {
+.field {
     margin-top: 20px;
 }
 
-.acceptbtn[b-un7nwylrv6] {
+.acceptbtn {
     background-color:lightgreen;
     border-radius: 5px;
     padding: 5px;
@@ -22,8 +49,69 @@
     padding-right: 10px;
 }
 
-.button-row[b-un7nwylrv6]{
+.button-row{
     margin-top: 15px;
+}
+/* /Pages/UIComponents/CheckBox.razor.rz.scp.css */
+.checkbox-container[b-hhhwov1z09] {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.checkbox-input[b-hhhwov1z09] {
+    position: absolute;
+    transform: scale(0);
+}
+
+.checkbox-input:checked ~ .checkbox-span[b-hhhwov1z09] {
+    transform: rotate(45deg);
+    width: 15px;
+    margin-left: 8px;
+    border-color: #24c78e;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-radius: 0;
+}
+
+.checkbox-span[b-hhhwov1z09] {
+    display: block;
+    width: inherit;
+    height: inherit;
+    border: 3px solid #434343;
+    border-radius: 6px;
+    transition: all 0.375s;
+}
+/* /Pages/ViewEvents.razor.rz.scp.css */
+.filter-bar[b-7jd1uarkus] {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.funnel[b-7jd1uarkus]{
+    width:30px;
+    height:30px;
+    cursor: pointer;
+}
+
+.filter[b-7jd1uarkus] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+/* /Pages/ViewUsers.razor.rz.scp.css */
+/*.user-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: inline-block;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 10px;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-uf8yg7q7j8] {

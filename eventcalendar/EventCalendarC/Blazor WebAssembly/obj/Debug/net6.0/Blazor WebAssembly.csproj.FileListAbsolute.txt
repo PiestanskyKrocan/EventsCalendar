@@ -830,3 +830,7 @@ C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\
 C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\Blazor WebAssembly.pdb
 C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\ref\Blazor WebAssembly.dll
 C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\scopedcss\Pages\CreateUser.razor.rz.scp.css
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\scopedcss\Pages\ViewUsers.razor.rz.scp.css
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\scopedcss\Pages\CreateEvent.razor.rz.scp.css
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\scopedcss\Pages\ViewEvents.razor.rz.scp.css
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\Blazor WebAssembly\obj\Debug\net6.0\scopedcss\Pages\UIComponents\CheckBox.razor.rz.scp.css

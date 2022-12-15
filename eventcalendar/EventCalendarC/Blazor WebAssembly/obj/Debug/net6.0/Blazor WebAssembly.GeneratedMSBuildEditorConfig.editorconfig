@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Arteschip/Documents/GitHub/EventsCalendar/eventcalendar/EventCalendarC/Blazor WebAssembly/Pages/EditEvent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEV2ZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Arteschip/Documents/GitHub/EventsCalendar/eventcalendar/EventCalendarC/Blazor WebAssembly/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,9 +38,25 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Arteschip/Documents/GitHub/EventsCalendar/eventcalendar/EventCalendarC/Blazor WebAssembly/Pages/CreateEvent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlRXZlbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-yvh4im15ad
+
 [C:/Users/Arteschip/Documents/GitHub/EventsCalendar/eventcalendar/EventCalendarC/Blazor WebAssembly/Pages/CreateUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-un7nwylrv6
+
+[C:/Users/Arteschip/Documents/GitHub/EventsCalendar/eventcalendar/EventCalendarC/Blazor WebAssembly/Pages/UIComponents/CheckBox.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVUlDb21wb25lbnRzXENoZWNrQm94LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-hhhwov1z09
+
+[C:/Users/Arteschip/Documents/GitHub/EventsCalendar/eventcalendar/EventCalendarC/Blazor WebAssembly/Pages/ViewEvents.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0V2ZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7jd1uarkus
+
+[C:/Users/Arteschip/Documents/GitHub/EventsCalendar/eventcalendar/EventCalendarC/Blazor WebAssembly/Pages/ViewUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1VzZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-xb062r442m
 
 [C:/Users/Arteschip/Documents/GitHub/EventsCalendar/eventcalendar/EventCalendarC/Blazor WebAssembly/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
