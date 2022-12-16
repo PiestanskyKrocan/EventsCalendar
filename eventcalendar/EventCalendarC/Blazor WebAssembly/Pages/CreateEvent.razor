@@ -24,6 +24,22 @@
             <input type="text" @bind="eventTitle"/>
         </div>
         <div class="form-group field">
+            <label>Body Text:</label>
+            <input type="text" @bind="bodyText"/>
+        </div>
+        <div class="form-group field">
+            <label>Start Time:</label>
+            <input type="text" @bind="startTime"/>
+        </div>
+        <div class="form-group field">
+            <label>End Time:</label>
+            <input type="text" @bind="endTime"/>
+        </div>
+        <div class="form-group field">
+            <label>Address:</label>
+            <input type="text" @bind="address"/>
+        </div>
+        <div class="form-group field">
             <label>Assignee:</label>
             <select @bind="selectedUserId">
                 <option>Choose</option>
@@ -47,6 +63,10 @@
     private IEnumerable<User>? users;
     private int? selectedUserId;
     private string eventTitle = "";
+    private string bodyText = "";
+    private string startTime = "";
+    private string endTime = "";
+    private string address = "";
 
     private string msg = "";
 
@@ -77,10 +97,30 @@
             msg = "Title cannot be empty!";
             return;
         }
+        if (string.IsNullOrEmpty(bodyText))
+        {
+            msg = "Body Text cannot be empty!";
+            return;
+        }
+        if (string.IsNullOrEmpty(startTime))
+        {
+            msg = "Start time cannot be empty!";
+            return;
+        }
+        if (string.IsNullOrEmpty(endTime))
+        {
+            msg = "End time cannot be empty!";
+            return;
+        }
+        if (string.IsNullOrEmpty(address))
+        {
+            msg = "Address cannot be empty!";
+            return;
+        }
 
         try
         {
-            EventCreationDto eventCreation = new((int)selectedUserId, eventTitle);
+            EventCreationDto eventCreation = new((int)selectedUserId, eventTitle, bodyText, startTime, endTime, address);
             await eventService.CreateAsync(eventCreation);
             NavigationManager.NavigateTo("/");
         }

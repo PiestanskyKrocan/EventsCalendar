@@ -1,0 +1,73 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "asdas",
+      "Password": "sdfsds",
+      "Gender": "asdaad",
+      "DateOfBirth": "adsa",
+      "Address": "asdasdasdasd"
+    },
+    {
+      "Id": 2,
+      "UserName": "Alzimax",
+      "Password": "sdfsd2s",
+      "Gender": "asd1aad",
+      "DateOfBirth": "a3dsa",
+      "Address": "asdasdasd41asd"
+    }
+  ],
+  "Events": [
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Alzimax",
+        "Password": "sdfsd2s",
+        "Gender": "asd1aad",
+        "DateOfBirth": "a3dsa",
+        "Address": "asdasdasd41asd"
+      },
+      "Title": "title",
+      "BodyText": "bodytext",
+      "StartTime": "startTime",
+      "EndTime": "endTime",
+      "Address": "address",
+      "IsCompleted": false
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "Id": 1,
+        "UserName": "asdas",
+        "Password": "sdfsds",
+        "Gender": "asdaad",
+        "DateOfBirth": "adsa",
+        "Address": "asdasdasdasd"
+      },
+      "Title": "assdad",
+      "BodyText": "asdasd",
+      "StartTime": "asdads",
+      "EndTime": "asdasd",
+      "Address": "asdasd",
+      "IsCompleted": false
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "Id": 1,
+        "UserName": "asdas",
+        "Password": "sdfsds",
+        "Gender": "asdaad",
+        "DateOfBirth": "adsa",
+        "Address": "asdasdasdasd"
+      },
+      "Title": "asdad",
+      "BodyText": "asda",
+      "StartTime": "asda",
+      "EndTime": "asdas",
+      "Address": "asda",
+      "IsCompleted": false
+    }
+  ]
+}

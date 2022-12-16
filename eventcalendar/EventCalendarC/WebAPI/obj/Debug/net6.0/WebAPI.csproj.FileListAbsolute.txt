@@ -32,4 +32,3 @@ C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\
 C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\WebAPI\bin\Debug\net6.0\FileData.pdb
 C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\WebAPI\bin\Debug\net6.0\Domain.pdb
 C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\WebAPI\bin\Debug\net6.0\Grpc.Net.Client.Web.dll
-C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\WebAPI\bin\Debug\net6.0\data.json
