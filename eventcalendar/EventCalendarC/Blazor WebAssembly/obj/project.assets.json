@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Grpc.Net.Client.Web/2.51.0-pre1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Grpc.Net.Client.Web.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Grpc.Net.Client.Web.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.8": {
         "type": "package",
         "dependencies": {
@@ -502,6 +515,9 @@
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Grpc.Net.Client.Web": "2.51.0-pre1"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -513,7 +529,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Grpc.Net.Client.Web": "2.51.0-pre1"
         },
         "compile": {
           "bin/placeholder/HttpClients.dll": {}
@@ -524,6 +541,19 @@
       }
     },
     "net6.0/browser-wasm": {
+      "Grpc.Net.Client.Web/2.51.0-pre1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Grpc.Net.Client.Web.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Grpc.Net.Client.Web.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.8": {
         "type": "package",
         "dependencies": {
@@ -1018,6 +1048,9 @@
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Grpc.Net.Client.Web": "2.51.0-pre1"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -1029,7 +1062,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Grpc.Net.Client.Web": "2.51.0-pre1"
         },
         "compile": {
           "bin/placeholder/HttpClients.dll": {}
@@ -1041,6 +1075,34 @@
     }
   },
   "libraries": {
+    "Grpc.Net.Client.Web/2.51.0-pre1": {
+      "sha512": "Uw8EnjqXB1MhD3kp4XlLIuUzGnGdiVTq4bf6mgvtsbMrJ3i01t1uK03x7p5RoZoufweanx5ndDCHCWN/+H19gw==",
+      "type": "package",
+      "path": "grpc.net.client.web/2.51.0-pre1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "grpc.net.client.web.2.51.0-pre1.nupkg.sha512",
+        "grpc.net.client.web.nuspec",
+        "lib/net5.0/Grpc.Net.Client.Web.dll",
+        "lib/net5.0/Grpc.Net.Client.Web.pdb",
+        "lib/net5.0/Grpc.Net.Client.Web.xml",
+        "lib/net6.0/Grpc.Net.Client.Web.dll",
+        "lib/net6.0/Grpc.Net.Client.Web.pdb",
+        "lib/net6.0/Grpc.Net.Client.Web.xml",
+        "lib/net7.0/Grpc.Net.Client.Web.dll",
+        "lib/net7.0/Grpc.Net.Client.Web.pdb",
+        "lib/net7.0/Grpc.Net.Client.Web.xml",
+        "lib/netstandard2.0/Grpc.Net.Client.Web.dll",
+        "lib/netstandard2.0/Grpc.Net.Client.Web.pdb",
+        "lib/netstandard2.0/Grpc.Net.Client.Web.xml",
+        "lib/netstandard2.1/Grpc.Net.Client.Web.dll",
+        "lib/netstandard2.1/Grpc.Net.Client.Web.pdb",
+        "lib/netstandard2.1/Grpc.Net.Client.Web.xml",
+        "packageIcon.png"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/6.0.8": {
       "sha512": "rDLMah6FOtFoC5uWDxnevcH/FqEs+APgmTqEvcLj3OU6Y/X8M5ASm/EdlQh6B+Z2XsQW5xu+K8tyn7w7OgOX8A==",
       "type": "package",
@@ -1813,6 +1875,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Grpc.Net.Client.Web >= 2.51.0-pre1",
       "HttpClients >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.8",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.8"
@@ -1862,6 +1925,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Grpc.Net.Client.Web": {
+            "target": "Package",
+            "version": "[2.51.0-pre1, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[6.0.8, )"

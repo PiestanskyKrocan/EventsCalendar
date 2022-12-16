@@ -14,27 +14,27 @@ public final class GRPCUserServiceGrpc {
   public static final String SERVICE_NAME = "sdj.project.eventcalendar.protobuf.GRPCUserService";
 
   // Static method descriptors that strictly reflect the proto.
-  private static volatile io.grpc.MethodDescriptor<sdj.project.eventcalendar.protobuf.User,
+  private static volatile io.grpc.MethodDescriptor<sdj.project.eventcalendar.protobuf.UserId,
       sdj.project.eventcalendar.protobuf.User> getRPCfindUserByIdMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "RPCfindUserById",
-      requestType = sdj.project.eventcalendar.protobuf.User.class,
+      requestType = sdj.project.eventcalendar.protobuf.UserId.class,
       responseType = sdj.project.eventcalendar.protobuf.User.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<sdj.project.eventcalendar.protobuf.User,
+  public static io.grpc.MethodDescriptor<sdj.project.eventcalendar.protobuf.UserId,
       sdj.project.eventcalendar.protobuf.User> getRPCfindUserByIdMethod() {
-    io.grpc.MethodDescriptor<sdj.project.eventcalendar.protobuf.User, sdj.project.eventcalendar.protobuf.User> getRPCfindUserByIdMethod;
+    io.grpc.MethodDescriptor<sdj.project.eventcalendar.protobuf.UserId, sdj.project.eventcalendar.protobuf.User> getRPCfindUserByIdMethod;
     if ((getRPCfindUserByIdMethod = GRPCUserServiceGrpc.getRPCfindUserByIdMethod) == null) {
       synchronized (GRPCUserServiceGrpc.class) {
         if ((getRPCfindUserByIdMethod = GRPCUserServiceGrpc.getRPCfindUserByIdMethod) == null) {
           GRPCUserServiceGrpc.getRPCfindUserByIdMethod = getRPCfindUserByIdMethod =
-              io.grpc.MethodDescriptor.<sdj.project.eventcalendar.protobuf.User, sdj.project.eventcalendar.protobuf.User>newBuilder()
+              io.grpc.MethodDescriptor.<sdj.project.eventcalendar.protobuf.UserId, sdj.project.eventcalendar.protobuf.User>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(SERVICE_NAME, "RPCfindUserById"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  sdj.project.eventcalendar.protobuf.User.getDefaultInstance()))
+                  sdj.project.eventcalendar.protobuf.UserId.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
                   sdj.project.eventcalendar.protobuf.User.getDefaultInstance()))
               .setSchemaDescriptor(new GRPCUserServiceMethodDescriptorSupplier("RPCfindUserById"))
@@ -219,7 +219,7 @@ public final class GRPCUserServiceGrpc {
 
     /**
      */
-    public void rPCfindUserById(sdj.project.eventcalendar.protobuf.User request,
+    public void rPCfindUserById(sdj.project.eventcalendar.protobuf.UserId request,
         io.grpc.stub.StreamObserver<sdj.project.eventcalendar.protobuf.User> responseObserver) {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getRPCfindUserByIdMethod(), responseObserver);
     }
@@ -258,7 +258,7 @@ public final class GRPCUserServiceGrpc {
             getRPCfindUserByIdMethod(),
             io.grpc.stub.ServerCalls.asyncUnaryCall(
               new MethodHandlers<
-                sdj.project.eventcalendar.protobuf.User,
+                sdj.project.eventcalendar.protobuf.UserId,
                 sdj.project.eventcalendar.protobuf.User>(
                   this, METHODID_RPCFIND_USER_BY_ID)))
           .addMethod(
@@ -309,7 +309,7 @@ public final class GRPCUserServiceGrpc {
 
     /**
      */
-    public void rPCfindUserById(sdj.project.eventcalendar.protobuf.User request,
+    public void rPCfindUserById(sdj.project.eventcalendar.protobuf.UserId request,
         io.grpc.stub.StreamObserver<sdj.project.eventcalendar.protobuf.User> responseObserver) {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getRPCfindUserByIdMethod(), getCallOptions()), request, responseObserver);
@@ -364,7 +364,7 @@ public final class GRPCUserServiceGrpc {
 
     /**
      */
-    public sdj.project.eventcalendar.protobuf.User rPCfindUserById(sdj.project.eventcalendar.protobuf.User request) {
+    public sdj.project.eventcalendar.protobuf.User rPCfindUserById(sdj.project.eventcalendar.protobuf.UserId request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getRPCfindUserByIdMethod(), getCallOptions(), request);
     }
@@ -416,7 +416,7 @@ public final class GRPCUserServiceGrpc {
     /**
      */
     public com.google.common.util.concurrent.ListenableFuture<sdj.project.eventcalendar.protobuf.User> rPCfindUserById(
-        sdj.project.eventcalendar.protobuf.User request) {
+        sdj.project.eventcalendar.protobuf.UserId request) {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getRPCfindUserByIdMethod(), getCallOptions()), request);
     }
@@ -470,7 +470,7 @@ public final class GRPCUserServiceGrpc {
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
         case METHODID_RPCFIND_USER_BY_ID:
-          serviceImpl.rPCfindUserById((sdj.project.eventcalendar.protobuf.User) request,
+          serviceImpl.rPCfindUserById((sdj.project.eventcalendar.protobuf.UserId) request,
               (io.grpc.stub.StreamObserver<sdj.project.eventcalendar.protobuf.User>) responseObserver);
           break;
         case METHODID_RPCSAVE_USER:

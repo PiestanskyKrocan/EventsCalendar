@@ -33,11 +33,13 @@ public class EventsController : ControllerBase
     
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Event>>> GetAsync([FromQuery] string? userName, [FromQuery] int? userId,
-        [FromQuery] bool? completedStatus, [FromQuery] string? titleContains)
+        [FromQuery] bool? completedStatus, [FromQuery] string? titleContains, [FromQuery] string? bodyTextContains, 
+        [FromQuery] string? startTimeIs, [FromQuery] string? endTimeIs, [FromQuery] string? addressContains)
     {
         try
         {
-            SearchEventsWithParametersDto searchEventsWithParameters = new(userName, userId, completedStatus, titleContains);
+            SearchEventsWithParametersDto searchEventsWithParameters = new(userName, userId, completedStatus, titleContains, 
+                bodyTextContains, startTimeIs, endTimeIs, addressContains);
             var events = await _eventLogic.GetAsync(searchEventsWithParameters);
             return Ok(events);
         }

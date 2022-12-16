@@ -1,0 +1,6 @@
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.AssemblyReference.cache
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\GrpcClient\obj\Debug\net6.0\GrpcClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfoInputs.cache
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfo.cs
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CoreCompileInputs.cache
+C:\Users\Arteschip\Documents\GitHub\EventsCalendar\eventcalendar\EventCalendarC\GrpcClient\obj\Debug\net6.0\GrpcClient.MvcApplicationPartsAssemblyInfo.cache

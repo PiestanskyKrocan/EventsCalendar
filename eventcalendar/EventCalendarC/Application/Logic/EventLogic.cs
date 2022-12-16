@@ -25,7 +25,7 @@ public class EventLogic : IEventLogic
         }
         
         ValidateEvent(eventCreationDto);
-        Event @event = new Event(user, eventCreationDto.Title);
+        Event @event = new Event(user, eventCreationDto.Title, eventCreationDto.BodyText, eventCreationDto.StartTime, eventCreationDto.EndTime, eventCreationDto.Address);
         Event createdEvent = await _eventDao.CreateAsync(@event);
         return createdEvent;
     }
@@ -75,8 +75,12 @@ public class EventLogic : IEventLogic
         User userToUse = user ?? existing.Owner;
         string titleToUse = eventUpdate.Title ?? existing.Title;
         bool completedToUse = eventUpdate.IsCompleted ?? existing.IsCompleted;
-    
-        Event updated = new (userToUse, titleToUse)
+        string bodyTextToUse = eventUpdate.BodyText ?? existing.BodyText;
+        string startTime = eventUpdate.StartTime ?? existing.StartTime;
+        string endTime = eventUpdate.EndTime ?? existing.EndTime;
+        string address = eventUpdate.Address ?? existing.Address;
+
+        Event updated = new (userToUse, titleToUse, bodyTextToUse, startTime, endTime, address)
         {
             IsCompleted = completedToUse,
             Id = existing.Id,

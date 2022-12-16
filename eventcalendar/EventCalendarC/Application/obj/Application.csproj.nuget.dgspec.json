@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Grpc.Net.Client.Web": {
+              "target": "Package",
+              "version": "[2.51.0-pre1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -100,6 +106,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Grpc.Net.Client.Web": {
+              "target": "Package",
+              "version": "[2.51.0-pre1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

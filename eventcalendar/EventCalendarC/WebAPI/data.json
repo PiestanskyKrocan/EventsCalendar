@@ -2,82 +2,72 @@
   "Users": [
     {
       "Id": 1,
-      "UserName": "Alzimax"
+      "UserName": "asdas",
+      "Password": "sdfsds",
+      "Gender": "asdaad",
+      "DateOfBirth": "adsa",
+      "Address": "asdasdasdasd"
     },
     {
       "Id": 2,
-      "UserName": "Alzimax2"
-    },
-    {
-      "Id": 3,
-      "UserName": "Alzimax3"
-    },
-    {
-      "Id": 4,
-      "UserName": ""
-    },
-    {
-      "Id": 5,
-      "UserName": "Alzimax1"
-    },
-    {
-      "Id": 6,
-      "UserName": "Alzimax4"
-    },
-    {
-      "Id": 7,
-      "UserName": "asd"
-    },
-    {
-      "Id": 8,
-      "UserName": "Asd"
+      "UserName": "Alzimax",
+      "Password": "sdfsd2s",
+      "Gender": "asd1aad",
+      "DateOfBirth": "a3dsa",
+      "Address": "asdasdasd41asd"
     }
   ],
   "Events": [
     {
-      "Id": 5,
+      "Id": 2,
       "Owner": {
         "Id": 2,
-        "UserName": "Alzimax2"
+        "UserName": "Alzimax",
+        "Password": "sdfsd2s",
+        "Gender": "asd1aad",
+        "DateOfBirth": "a3dsa",
+        "Address": "asdasdasd41asd"
       },
-      "Title": "asd",
+      "Title": "title",
+      "BodyText": "bodytext",
+      "StartTime": "startTime",
+      "EndTime": "endTime",
+      "Address": "address",
+      "IsCompleted": false
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "Id": 1,
+        "UserName": "asdas",
+        "Password": "sdfsds",
+        "Gender": "asdaad",
+        "DateOfBirth": "adsa",
+        "Address": "asdasdasdasd"
+      },
+      "Title": "assdad",
+      "BodyText": "asdasd",
+      "StartTime": "asdads",
+      "EndTime": "asdasd",
+      "Address": "asdasd",
       "IsCompleted": false
     },
     {
       "Id": 4,
       "Owner": {
         "Id": 1,
-        "UserName": "Alzimax"
+        "UserName": "asdas",
+        "Password": "sdfsds",
+        "Gender": "asdaad",
+        "DateOfBirth": "adsa",
+        "Address": "asdasdasdasd"
       },
-      "Title": "editedEvent",
+      "Title": "asdad",
+      "BodyText": "asda",
+      "StartTime": "asda",
+      "EndTime": "asdas",
+      "Address": "asda",
       "IsCompleted": false
-    },
-    {
-      "Id": 6,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Alzimax"
-      },
-      "Title": "asd",
-      "IsCompleted": false
-    },
-    {
-      "Id": 2,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Alzimax"
-      },
-      "Title": "Event3",
-      "IsCompleted": true
-    },
-    {
-      "Id": 3,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Alzimax"
-      },
-      "Title": "Event42352",
-      "IsCompleted": true
     }
   ]
 }

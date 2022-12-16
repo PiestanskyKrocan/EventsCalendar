@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClients", "HttpClients\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor WebAssembly", "Blazor WebAssembly\Blazor WebAssembly.csproj", "{9B624653-1AE3-42B2-AFCC-69AF5E746804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{EDC4A914-4614-46AA-A700-1E9077F5C65E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{9B624653-1AE3-42B2-AFCC-69AF5E746804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B624653-1AE3-42B2-AFCC-69AF5E746804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B624653-1AE3-42B2-AFCC-69AF5E746804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC4A914-4614-46AA-A700-1E9077F5C65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC4A914-4614-46AA-A700-1E9077F5C65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC4A914-4614-46AA-A700-1E9077F5C65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC4A914-4614-46AA-A700-1E9077F5C65E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
