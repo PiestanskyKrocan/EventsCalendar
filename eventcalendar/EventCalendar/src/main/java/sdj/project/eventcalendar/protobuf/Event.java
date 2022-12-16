@@ -101,6 +101,11 @@ private static final long serialVersionUID = 0L;
 
             break;
           }
+          case 64: {
+
+            isCompleted_ = input.readBool();
+            break;
+          }
           default: {
             if (!parseUnknownField(
                 input, unknownFields, extensionRegistry, tag)) {
@@ -362,6 +367,17 @@ private static final long serialVersionUID = 0L;
     return getCreator();
   }
 
+  public static final int ISCOMPLETED_FIELD_NUMBER = 8;
+  private boolean isCompleted_;
+  /**
+   * <code>bool isCompleted = 8;</code>
+   * @return The isCompleted.
+   */
+  @java.lang.Override
+  public boolean getIsCompleted() {
+    return isCompleted_;
+  }
+
   private byte memoizedIsInitialized = -1;
   @java.lang.Override
   public final boolean isInitialized() {
@@ -397,6 +413,9 @@ private static final long serialVersionUID = 0L;
     if (creator_ != null) {
       output.writeMessage(7, getCreator());
     }
+    if (isCompleted_ != false) {
+      output.writeBool(8, isCompleted_);
+    }
     unknownFields.writeTo(output);
   }
 
@@ -428,6 +447,10 @@ private static final long serialVersionUID = 0L;
     if (creator_ != null) {
       size += com.google.protobuf.CodedOutputStream
         .computeMessageSize(7, getCreator());
+    }
+    if (isCompleted_ != false) {
+      size += com.google.protobuf.CodedOutputStream
+        .computeBoolSize(8, isCompleted_);
     }
     size += unknownFields.getSerializedSize();
     memoizedSize = size;
@@ -461,6 +484,8 @@ private static final long serialVersionUID = 0L;
       if (!getCreator()
           .equals(other.getCreator())) return false;
     }
+    if (getIsCompleted()
+        != other.getIsCompleted()) return false;
     if (!unknownFields.equals(other.unknownFields)) return false;
     return true;
   }
@@ -489,6 +514,9 @@ private static final long serialVersionUID = 0L;
       hash = (37 * hash) + CREATOR_FIELD_NUMBER;
       hash = (53 * hash) + getCreator().hashCode();
     }
+    hash = (37 * hash) + ISCOMPLETED_FIELD_NUMBER;
+    hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+        getIsCompleted());
     hash = (29 * hash) + unknownFields.hashCode();
     memoizedHashCode = hash;
     return hash;
@@ -640,6 +668,8 @@ private static final long serialVersionUID = 0L;
         creator_ = null;
         creatorBuilder_ = null;
       }
+      isCompleted_ = false;
+
       return this;
     }
 
@@ -677,6 +707,7 @@ private static final long serialVersionUID = 0L;
       } else {
         result.creator_ = creatorBuilder_.build();
       }
+      result.isCompleted_ = isCompleted_;
       onBuilt();
       return result;
     }
@@ -750,6 +781,9 @@ private static final long serialVersionUID = 0L;
       }
       if (other.hasCreator()) {
         mergeCreator(other.getCreator());
+      }
+      if (other.getIsCompleted() != false) {
+        setIsCompleted(other.getIsCompleted());
       }
       this.mergeUnknownFields(other.unknownFields);
       onChanged();
@@ -1308,6 +1342,37 @@ private static final long serialVersionUID = 0L;
         creator_ = null;
       }
       return creatorBuilder_;
+    }
+
+    private boolean isCompleted_ ;
+    /**
+     * <code>bool isCompleted = 8;</code>
+     * @return The isCompleted.
+     */
+    @java.lang.Override
+    public boolean getIsCompleted() {
+      return isCompleted_;
+    }
+    /**
+     * <code>bool isCompleted = 8;</code>
+     * @param value The isCompleted to set.
+     * @return This builder for chaining.
+     */
+    public Builder setIsCompleted(boolean value) {
+      
+      isCompleted_ = value;
+      onChanged();
+      return this;
+    }
+    /**
+     * <code>bool isCompleted = 8;</code>
+     * @return This builder for chaining.
+     */
+    public Builder clearIsCompleted() {
+      
+      isCompleted_ = false;
+      onChanged();
+      return this;
     }
     @java.lang.Override
     public final Builder setUnknownFields(

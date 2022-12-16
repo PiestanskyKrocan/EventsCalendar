@@ -32,7 +32,8 @@ public class UsersController : ControllerBase
     }
     
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<User>>> GetAsync([FromQuery] string? username, [FromQuery] string? gender, [FromQuery] string? dateOfBirth, [FromQuery] string? address)
+    public async Task<ActionResult<IEnumerable<User>>> GetAsync([FromQuery] string? username, [FromQuery] string? gender, 
+        [FromQuery] string? dateOfBirth, [FromQuery] string? address)
     {
         try
         {
@@ -47,3 +48,26 @@ public class UsersController : ControllerBase
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

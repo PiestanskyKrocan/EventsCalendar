@@ -87,4 +87,10 @@ public interface EventOrBuilder extends
    * <code>.sdj.project.eventcalendar.protobuf.User creator = 7;</code>
    */
   sdj.project.eventcalendar.protobuf.UserOrBuilder getCreatorOrBuilder();
+
+  /**
+   * <code>bool isCompleted = 8;</code>
+   * @return The isCompleted.
+   */
+  boolean getIsCompleted();
 }
