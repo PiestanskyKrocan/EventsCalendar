@@ -43,8 +43,8 @@ public class EventFileDao : IEventDao
         if (!string.IsNullOrEmpty(searchEventsWithParameters.Username))
         {
             // username is always unique, so we always fetch that first
-            result = _context.Events.Where(todo =>
-                todo.Owner.UserName.Equals(searchEventsWithParameters.Username, StringComparison.Ordinal));
+            result = _context.Events.Where(eEvent =>
+                eEvent.Owner.UserName.Equals(searchEventsWithParameters.Username, StringComparison.Ordinal));
         }
 
         if (searchEventsWithParameters.UserId != null)

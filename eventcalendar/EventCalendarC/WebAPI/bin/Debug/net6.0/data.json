@@ -1,83 +1,69 @@
 {
   "Users": [
     {
-      "Id": 1,
-      "UserName": "Alzimax"
-    },
-    {
       "Id": 2,
-      "UserName": "Alzimax2"
+      "UserName": "asdasdasdadasdasd",
+      "Password": "asdad",
+      "Gender": "asdasd",
+      "DateOfBirth": "asddasda",
+      "Address": "asdasdadassda"
     },
     {
       "Id": 3,
-      "UserName": "Alzimax3"
+      "UserName": "asdasdasdadasdasd1",
+      "Password": "asdad",
+      "Gender": "asdasd",
+      "DateOfBirth": "asddasda",
+      "Address": "asdasdadassda"
     },
     {
       "Id": 4,
-      "UserName": ""
-    },
-    {
-      "Id": 5,
-      "UserName": "Alzimax1"
-    },
-    {
-      "Id": 6,
-      "UserName": "Alzimax4"
-    },
-    {
-      "Id": 7,
-      "UserName": "asd"
-    },
-    {
-      "Id": 8,
-      "UserName": "Asd"
+      "UserName": "asdasdasdadasdasd12",
+      "Password": "asdad",
+      "Gender": "f",
+      "DateOfBirth": "asddasda",
+      "Address": "asdasdadassda"
     }
   ],
   "Events": [
     {
-      "Id": 5,
-      "Owner": {
-        "Id": 2,
-        "UserName": "Alzimax2"
-      },
-      "Title": "asd",
-      "IsCompleted": false
-    },
-    {
-      "Id": 4,
+      "Id": 1,
       "Owner": {
         "Id": 1,
-        "UserName": "Alzimax"
+        "UserName": "asdada",
+        "Password": null,
+        "Gender": null,
+        "DateOfBirth": null,
+        "Address": null
       },
-      "Title": "editedEvent",
-      "IsCompleted": false
-    },
-    {
-      "Id": 6,
-      "Owner": {
-        "Id": 1,
-        "UserName": "Alzimax"
-      },
-      "Title": "asd",
+      "Title": "asfdasdfsafdg",
       "IsCompleted": false
     },
     {
       "Id": 2,
       "Owner": {
-        "Id": 1,
-        "UserName": "Alzimax"
+        "Id": 2,
+        "UserName": "asdasdasdadasdasd",
+        "Password": "asdad",
+        "Gender": "asdasd",
+        "DateOfBirth": "asddasda",
+        "Address": "asdasdadassda"
       },
-      "Title": "Event3",
-      "IsCompleted": true
+      "Title": "asdasdafdsdgfsg",
+      "IsCompleted": false
     },
     {
       "Id": 3,
       "Owner": {
-        "Id": 1,
-        "UserName": "Alzimax"
+        "Id": 2,
+        "UserName": "asdasdasdadasdasd",
+        "Password": "asdad",
+        "Gender": "asdasd",
+        "DateOfBirth": "asddasda",
+        "Address": "asdasdadassda"
       },
-      "Title": "Event42352",
-      "IsCompleted": true
+      "Title": "asdasdafdsdgfsg",
+      "IsCompleted": false
     }
   ]
 }

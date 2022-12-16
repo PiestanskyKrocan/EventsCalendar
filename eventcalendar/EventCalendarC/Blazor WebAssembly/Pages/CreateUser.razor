@@ -8,6 +8,15 @@
     <div class="form-group field">
         <label>User name:</label>
         <input type="text" @bind="username" @bind:event="oninput"/>
+        <label>Password:</label>
+        <input type="text" @bind="password" @bind:event="oninput"/>
+        <label>Gender:</label>
+        <input type="text" @bind="gender" @bind:event="oninput"/>
+        <label>Date Of Birth:</label>
+        <input type="text" @bind="dateOfBirth" @bind:event="oninput"/>
+        <label>Address:</label>
+        <input type="text" @bind="address" @bind:event="oninput"/>
+        
         @if (!string.IsNullOrEmpty(resultMsg))
         {
             <label style="color: @color">@resultMsg</label>
@@ -20,6 +29,10 @@
 
 @code {
     private string username = "";
+    private string password = "";
+    private string gender = "";
+    private string dateOfBirth = "";
+    private string address = "";
     private string resultMsg = "";
     private string color = "";
     
@@ -29,7 +42,7 @@
 
         try
         {
-            await userService.CreateAsync(new UserCreationDto(username));
+            await userService.CreateAsync(new UserCreationDto(username, password, gender, dateOfBirth, address));
             username = "";
             resultMsg = "User successfully created";
             color = "green";
